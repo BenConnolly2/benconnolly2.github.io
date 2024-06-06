@@ -121,26 +121,31 @@ export const CONCEPT_EXAMPLE_DATA = {
 
     Ruby provides hooks like method_missing to handle calls to undefined methods, and define_method to dynamically define methods.`,
     code: `
-  class DynamicGreeter
+    class DynamicGreeter
     def method_missing(name, *args)
-      puts "Hello, #{name}!"
+      puts "Hello, #{name.to_s.split('_').map(&:capitalize).join(' ')}!"
     end
   end
-
+  
   greeter = DynamicGreeter.new
-  greeter.world  # => "Hello, world!"
+  greeter.sub_zero    # => "Hello, Sub Zero!"
+  greeter.scorpion    # => "Hello, Scorpion!"
+  greeter.liu_kang    # => "Hello, Liu Kang!"
 
-  # Using define_method
-  class MyClass
-    [:foo, :bar, :baz].each do |method_name|
-      define_method(method_name) do
-        puts "Called {method_name}"
-      end
+  class MortalKombat
+  [:sub_zero, :scorpion, :liu_kang].each do |character|
+    define_method(character) do
+      puts "Called #{character.to_s.split('_').map(&:capitalize).join(' ')}"
     end
   end
+end
 
-  obj = MyClass.new
-  obj.foo  # => "Called foo"
+kombatant = MortalKombat.new
+kombatant.sub_zero    # => "Called Sub Zero"
+kombatant.scorpion    # => "Called Scorpion"
+kombatant.liu_kang    # => "Called Liu Kang"
+
+
 `,
   },
 };
