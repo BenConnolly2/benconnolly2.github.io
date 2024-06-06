@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/benconnolly2.github.io/static/css/main.74d6fb94.css",
-    "main.js": "/benconnolly2.github.io/static/js/main.63af2e59.js",
-    "static/media/duck.png": "/benconnolly2.github.io/static/media/duck.c9f0ac0185f2aecd8cb1.png",
-    "static/media/meta.png": "/benconnolly2.github.io/static/media/meta.517115a43953cd837c8e.png",
-    "static/media/procs.png": "/benconnolly2.github.io/static/media/procs.c700811c5f74fedcb131.png",
-    "static/media/oop.png": "/benconnolly2.github.io/static/media/oop.f38e7e3ab7abeddf9b4e.png",
-    "index.html": "/benconnolly2.github.io/index.html",
-    "main.74d6fb94.css.map": "/benconnolly2.github.io/static/css/main.74d6fb94.css.map",
-    "main.63af2e59.js.map": "/benconnolly2.github.io/static/js/main.63af2e59.js.map"
+    "main.css": "/static/css/main.74d6fb94.css",
+    "main.js": "/static/js/main.cb651639.js",
+    "static/media/duck.png": "/static/media/duck.c9f0ac0185f2aecd8cb1.png",
+    "static/media/meta.png": "/static/media/meta.517115a43953cd837c8e.png",
+    "static/media/procs.png": "/static/media/procs.c700811c5f74fedcb131.png",
+    "static/media/oop.png": "/static/media/oop.f38e7e3ab7abeddf9b4e.png",
+    "index.html": "/index.html",
+    "main.74d6fb94.css.map": "/static/css/main.74d6fb94.css.map",
+    "main.cb651639.js.map": "/static/js/main.cb651639.js.map"
   },
   "entrypoints": [
     "static/css/main.74d6fb94.css",
-    "static/js/main.63af2e59.js"
+    "static/js/main.cb651639.js"
   ]
 }
