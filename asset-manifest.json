@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74d6fb94.css",
+    "main.js": "/static/js/main.cc89bcba.js",
+    "static/media/duck.png": "/static/media/duck.c9f0ac0185f2aecd8cb1.png",
+    "static/media/meta.png": "/static/media/meta.517115a43953cd837c8e.png",
+    "static/media/procs.png": "/static/media/procs.c700811c5f74fedcb131.png",
+    "static/media/oop.png": "/static/media/oop.f38e7e3ab7abeddf9b4e.png",
+    "index.html": "/index.html",
+    "main.74d6fb94.css.map": "/static/css/main.74d6fb94.css.map",
+    "main.cc89bcba.js.map": "/static/js/main.cc89bcba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74d6fb94.css",
+    "static/js/main.cc89bcba.js"
+  ]
+}
